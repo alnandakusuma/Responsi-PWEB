@@ -1,0 +1,60 @@
+.style1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.style2 {
+    color: rgb(15 23 42);
+    text-align: center;
+}
+
+.style3 {
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.style4 {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.style5 {
+    display: inline-block;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.5rem;
+    border-width: 2px;
+    border-color: rgb(14 165 233);
+    color: rgb(14 165 233);
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    line-height: 1.375;
+    text-transform: uppercase;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.style5:hover{
+    opacity: 70%;
+}
+
+table,
+table td, th {
+    border: 1px solid #cccccc;
+}
+
+td {
+    height: 80px;
+    width: 160px;
+    text-align: center;
+    vertical-align: middle;
+}
